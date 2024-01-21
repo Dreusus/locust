@@ -2,9 +2,6 @@
 
 ## Установка
 
-Для работы с проектом убедитесь, что у вас установлен Python версии 3.6 или выше.
-Установите Locust с помощью следующей команды:
-
 ```bash
 pip install locust
 pip install locust-plugins
