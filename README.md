@@ -21,12 +21,13 @@ locust
 Для Windows (PowerShell)
 
 ```bash
-locust -f locustfile.py --headless -u 10 -r 10 -t 20s --html="reports/report_$(Get-Date -Format "yyyyMMdd_HHmmss").html"
+locust -f locustfile.py --headless -u 5 -r 5 -t 20s --html="reports/report_$(Get-Date -Format "yyyyMMdd_HHmmss").html"
 ```
 
 Для Unix/Linux/macOS
 
 ```bash
-locust -f locustfile.py --headless -u 10 -r 10 -t 20s --html=reports/report_$(date +"%Y%m%d_%H%M%S").html
+locust -f locustfile.py --headless -u 5 -r 5 -t 20s --html=reports/report_$(date +"%Y%m%d_%H%M%S").html
 ```
+
 
